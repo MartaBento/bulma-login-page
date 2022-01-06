@@ -10,38 +10,48 @@
 </head>
 
 <body>
-    <body>
-        <h1 class="title">
-           Bulma
-         </h1>
-   
-         <p class="subtitle">
-           Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-         </p>
-   
-         <div class="field">
-           <div class="control">
-             <input class="input" type="text" placeholder="Input">
-           </div>
-         </div>
-   
-         <div class="field">
-           <p class="control">
-             <span class="select">
-               <select>
-                 <option>Select dropdown</option>
-               </select>
-             </span>
-           </p>
-         </div>
-   
-         <div class="buttons">
-           <a class="button is-primary">Primary</a>
-           <a class="button is-link">Link</a>
-         </div>
-
-    <script src="node_modules/particles.js/demo/js/app.js">
+    <div id="particles-js"></div>
+    <section class="hero is-primary is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+                        <form action="" class="box has-text-centered">
+                            <!--    <figure class="image is-64x64 is-inline-block">
+                                <img src="images/logo.png" alt="logo">
+                              </figure> -->
+                            <div class="field">
+                                <label for="" class="label">Email</label>
+                                <div class="control has-icons-left">
+                                    <input type="email" placeholder="e.g. bobsmith@gmail.com" class="input" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="" class="label">Password</label>
+                                <div class="control has-icons-left">
+                                    <input type="password" placeholder="*******" class="input" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="" class="checkbox">
+                                    <input type="checkbox">
+                                    Remember me
+                                </label>
+                            </div>
+                            <div class="field">
+                                <button class="button is-success">
+                                    Login
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="node_modules/particles.js/particles.js">
     </script>
+    <script type="text/javascript" src="script/particlesConfig.js"></script>
 </body>
 
 </html>
