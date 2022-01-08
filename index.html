@@ -10,38 +10,69 @@
 </head>
 
 <body>
-    <body>
-        <h1 class="title">
-           Bulma
-         </h1>
-   
-         <p class="subtitle">
-           Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-         </p>
-   
-         <div class="field">
-           <div class="control">
-             <input class="input" type="text" placeholder="Input">
-           </div>
-         </div>
-   
-         <div class="field">
-           <p class="control">
-             <span class="select">
-               <select>
-                 <option>Select dropdown</option>
-               </select>
-             </span>
-           </p>
-         </div>
-   
-         <div class="buttons">
-           <a class="button is-primary">Primary</a>
-           <a class="button is-link">Link</a>
-         </div>
-
-    <script src="node_modules/particles.js/demo/js/app.js">
+    <div id="particles-js"></div>
+    <section class="hero is-primary is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+                        <form action="" class="box has-text-centered">
+                            <div class="card-image has-text-centered">
+                                <figure class="mb-4 image is-64x64 is-inline-block">
+                                    <img src="images/logo.png" />
+                                </figure>
+                            </div>
+                            <div class="field">
+                                <p class="control has-icons-left has-icons-right">
+                                    <input class="input" type="email" placeholder="Email">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control has-icons-left">
+                                    <input class="input" type="password" placeholder="Password">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="field">
+                                <label for="" class="checkbox">
+                                    <input type="checkbox">
+                                    Remember me
+                                </label>
+                            </div>
+                            <div class="container-buttons">
+                                <button class="button is-link mb-3">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                    <span>Login</span>
+                                </button>
+                                <button class="button is-link mb-3">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-user-plus"></i>
+                                    </span>
+                                    <span>Sign-Up</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- font-awesome cdn -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js'>
     </script>
+    <script src="node_modules/particles.js/particles.js">
+    </script>
+    <script type="text/javascript" src="script/particlesConfig.js"></script>
 </body>
 
 </html>

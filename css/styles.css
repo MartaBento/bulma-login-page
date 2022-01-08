@@ -7845,3 +7845,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+body,
+html {
+  height: 100%; }
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #232741;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 50% 50%; }
