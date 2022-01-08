@@ -17,20 +17,29 @@
                 <div class="columns is-centered">
                     <div class="column is-5-tablet is-4-desktop is-3-widescreen">
                         <form action="" class="box has-text-centered">
-                            <!--    <figure class="image is-64x64 is-inline-block">
-                                <img src="images/logo.png" alt="logo">
-                              </figure> -->
-                            <div class="field">
-                                <label for="" class="label">Email</label>
-                                <div class="control has-icons-left">
-                                    <input type="email" placeholder="e.g. bobsmith@gmail.com" class="input" required>
-                                </div>
+                            <div class="card-image has-text-centered">
+                                <figure class="mb-4 image is-64x64 is-inline-block">
+                                    <img src="images/logo.png" />
+                                </figure>
                             </div>
                             <div class="field">
-                                <label for="" class="label">Password</label>
-                                <div class="control has-icons-left">
-                                    <input type="password" placeholder="*******" class="input" required>
-                                </div>
+                                <p class="control has-icons-left has-icons-right">
+                                    <input class="input" type="email" placeholder="Email">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control has-icons-left">
+                                    <input class="input" type="password" placeholder="Password">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </p>
                             </div>
                             <div class="field">
                                 <label for="" class="checkbox">
@@ -38,9 +47,18 @@
                                     Remember me
                                 </label>
                             </div>
-                            <div class="field">
-                                <button class="button is-success">
-                                    Login
+                            <div class="container-buttons">
+                                <button class="button is-link">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                    <span>Login</span>
+                                </button>
+                                <button class="button is-link">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-user-plus"></i>
+                                    </span>
+                                    <span>Sign-Up</span>
                                 </button>
                             </div>
                         </form>
@@ -49,6 +67,9 @@
             </div>
         </div>
     </section>
+    <!-- font-awesome cdn -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js'>
+    </script>
     <script src="node_modules/particles.js/particles.js">
     </script>
     <script type="text/javascript" src="script/particlesConfig.js"></script>
